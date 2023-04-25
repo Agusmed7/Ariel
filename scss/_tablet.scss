@@ -1,0 +1,368 @@
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+    * {
+        max-width: 768px;
+        margin: 0%;
+    }
+
+    body {
+        background-image: url(../img/fondotrama.jpg);
+        margin: 1.5rem;
+        margin-top: 0;
+    }
+
+    .main {
+        width: max-content;
+        padding: 0;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        background-image: url(../img/AUTOPARTESARIEL.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        background-color: black;
+        width: max-content;
+        height: 15rem;
+        justify-content: end;
+    }
+
+    .redes {
+        z-index: 100;
+        display: flex;
+        align-content: space-between;
+    }
+
+    .iglogo {
+        width: 40px !important;
+        height: 40px !important;
+        background: none;
+        padding: 5px;
+    }
+
+    .navbar {
+        display: none;
+        background-color: black !important;
+    }
+
+    .offcanvas {
+        visibility: visible;
+        background-color: #0e0e0e;
+    }
+
+    .navGrande {
+        background-color: black;
+        color: #9B9E9D;
+    }
+
+    .nav-link {
+        color: #9B9E9D;
+    }
+
+
+    li :hover {
+        color: #FFDE59 !important;
+    }
+
+    .nav-item :active {
+        color: #FFDE59;
+    }
+
+    .nav-item {
+        border-right: 0.5px solid #FFDE59;
+    }
+
+
+
+    section {
+        margin: 0.5rem;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        background-color: black;
+    }
+
+    .chico {
+        display: none;
+    }
+
+    .grande {
+        padding: 0.5em;
+    }
+
+    .linea {
+        display: flex;
+        padding: 0%;
+        height: 30px !important;
+    }
+
+    #titulo {
+        margin-top: 1rem;
+
+    }
+
+    aside {
+        display: flex;
+        margin: 2rem;
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    h1 {
+        display: flex;
+        font-size: 8rem;
+        justify-content: center;
+        color: #FFDE59;
+        margin-bottom: 1rem;
+        padding: 2rem;
+    }
+
+
+
+
+    .descripcion {
+        padding: 2rem;
+    }
+
+    article {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    #mapaGrande {
+        width: 28em;
+    }
+
+
+    #mapaChico {
+        display: none;
+        width: 18rem;
+    }
+
+    iframe {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    form {
+        margin: 0rem;
+    }
+
+    .imgLocal {
+        padding: 1em;
+    }
+
+    .contact_form {
+        width: 460px;
+        height: auto;
+        margin: 80px auto;
+        border-radius: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: #fbfbfb;
+        padding-left: 30px;
+    }
+
+
+    input {
+        background-color: #fbfbfb;
+        height: 40px;
+        width: max-content;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FFDE59;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+
+
+    textarea {
+        background-color: #fbfbfb;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #FFDE59;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+
+    label {
+        display: block;
+        float: center;
+    }
+
+
+    #enviar {
+        height: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: #FFDE59;
+        border-color: #FFDE59;
+        border-style: solid;
+        border-radius: 10px;
+        width: 18em;
+        cursor: pointer;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+    }
+
+    button p {
+        display: flex;
+        color: #000000;
+    }
+
+
+    span {
+        color: #FFDE59;
+    }
+
+
+    .aviso {
+        font-size: 13px;
+        color: #0e0e0e;
+    }
+
+
+    h1 {
+        font-size: 50px;
+        text-align: letf;
+        padding-bottom: 20px;
+        padding-top: 0;
+        color: #FFDE59;
+    }
+
+    h2 {
+        color: #ffde59;
+    }
+
+    h3 {
+        font-size: 16px;
+        padding-bottom: 30px;
+        color: #0e0e0e;
+    }
+
+
+
+
+
+    p {
+        margin: 0;
+        font-size: 14px;
+        color: #ffde59;
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: #a8a8a8;
+    }
+
+
+    ::-webkit-textarea-placeholder {
+        color: #a8a8a8;
+    }
+
+
+    .formulario input:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+
+
+    .formulario textarea:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+
+    .mensaje {
+        float: right;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+        text-align: center;
+        line-height: 70px;
+        color: white;
+        background-color: #4dc247;
+        position: fixed;
+
+        bottom: 3px;
+        float: left;
+        margin-bottom: 60px;
+        z-index: 20;
+    }
+
+    .tituloForm {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 3em;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0.2em;
+    }
+
+    .imgForm {
+        height: 3rem;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+    footer {
+        background-color: #a8a8a8;
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        padding: 0%;
+        flex-direction: column;
+    }
+
+    .redesFooter {
+        flex-direction: column;
+        display: flex;
+        margin: 1rem;
+    }
+
+    .direcFooter {
+        align-self: center;
+        display: flex;
+        justify-content: end;
+        font-size: 1.5rem;
+    }
+
+    .iglogoFooter {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .iglogoFooter p {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem
+    }
+
+    a {
+        text-decoration-line: none
+    }
+
+
+}
